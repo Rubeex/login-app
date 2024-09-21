@@ -41,7 +41,6 @@ $ npm run start:prod
 <h2>Here is what you need to do</h2>
 <ul>
     <li>Create a .env file at the root directory of the project and add these variables to it:</li>
-    <li></li>
     <ul><li>MYSQL_HOST;USER;PASSWORD;NAME = MYSQL database</li><li>JWT_SECRET_KEY = the secret key for signing and verifying JSON Web Token keys.
 </li></ul>
 </ul>
