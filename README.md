@@ -10,7 +10,14 @@
 
 ## Description
 
-"Simple login with authentication and authorization on the endpoints using JWT and nestjs Framework."
+A user authentication REST API built with Node.js, Nestjs, and mysql with security in mind.
+
+<ul>
+  <li>JSON Web Token for authentication and authorization.</li>
+  <li>Bcrypt for password hashing.</li>
+  <li>Using TypeORM.</li>
+  <li>Validation Pipes.</li>
+</ul>
 
 ## Installation
 
@@ -30,4 +37,28 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+
+<h2>Here is what you need to do</h2>
+<ul>
+    <li>Create a .env file at the root directory of the project and add these variables to it:</li>
+    <li></li>
+    <ul><li>MYSQL_HOST;USER;PASSWORD;NAME = MYSQL database</li><li>JWT_SECRET_KEY = the secret key for signing and verifying JSON Web Token keys.
+</li></ul>
+</ul>
+
+<h2>API Endpoints</h2>
+<ul>
+    <li>POST Requests::</li>
+    <ul>
+      <li>auth/register</li>
+      <li>auth/login</li>
+    </ul>
+     <li>GET Requests::</li>
+    <ul>
+      <li>user/profile</li>
+      <li>user/</li>
+      <li>user/:id</li>
+    </ul>
+</ul>
+
 
